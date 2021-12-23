@@ -2,7 +2,6 @@ var yourName = document.getElementById("yourName");
 var college = document.getElementById("college");
 var location = document.getElementById("location");
 
-
 let form = document.getElementById("myForm");
 
 form.addEventListener("submit", function() {
