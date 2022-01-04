@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Online Coffee Shop</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Cafe Chalet</h1>
+            <h2>Coffee Shop Menu</h2>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-header"></h2>
+        <form action="">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column"></span>
+                <span class="cart-price cart-header cart-column"></span>
+                <span class="cart-quantity cart-header cart-column"></span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Cup of Coffee">
+                        <span class="cart-item-title">Coffee</span>
+                    </div>
+                    <span class="cart-price cart-column">$4.65</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="https://images.pexels.com/photos/792613/pexels-photo-792613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Iced tea">
+                            <span class="cart-item-title">Tea</span>
+                        </div>
+                        <span class="cart-price cart-column">$3.49</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" min="0" value="0">
+                        </div>
+                    </div>
+                    <div class="cart-items">
+                        <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                <img class="cart-item-image" src="https://images.pexels.com/photos/6492/food-breakfast-fork-bagel.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Smoked Salmon Bagel">
+                                <span class="cart-item-title">Smoked Salmon Bagel</span>
+                            </div>
+                            <span class="cart-price cart-column">$10.49</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" min="0" value="0">
+                            </div>
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span class="cart-total-price">$0.00</span>
+                        </div>
+                        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>1234 5th Avenue</p>
+        <p>New York, NY 12345</p>
+        <p>www.CafeChalet.com</p>
+        <p>Email: cafechalet@gmail.com</p>
+    </footer>
+    <script src="apps.js"></script>
+</body>
+
+</html>
